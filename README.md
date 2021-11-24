@@ -3,8 +3,11 @@
 ## Add branch
 git branch [branch_name]
 
-## Change HEAD to other brnach
+## Checkout branch
 git checkout [branch_name]
+
+## Add and checkout branch
+git checkout -b [branch_name]
 
 ## Delete remote branch
 git push [remote_repo] --delete [remote_brnach]

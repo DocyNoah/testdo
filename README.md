@@ -1,14 +1,16 @@
 # Branch Test
 
 ## Branch
-- Add  
+- Create  
   ```git branch [branch_name]```
 
-- Checkout  
-  ```git checkout [branch_name]```
+- Switch  
+  ```git switch [branch_name]```
+  > Not recommend ```checkout``` command.  
+  > The ```checkout``` command has been split into two commands: ```switch```, ```restore```
 
-- Add and Checkout  
-  ```git checkout -b [branch_name]```
+- Create and Switch  
+  ```git switch -c [branch_name]```
 
 - Delete
   - local  
@@ -17,9 +19,6 @@
     ```git branch -D [local_branch]```
   - remote  
     ```git push [remote_repo] --delete [remote_branch]```
-
-- Pull new remote branch  
-  ```git checkout -t [remote_repo]/[remote_branch]```
 
 - View
   - local  

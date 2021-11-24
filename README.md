@@ -18,7 +18,7 @@
   - local --force  
     ```git branch -D [local_branch]```
   - remote  
-    ```git push [remote_repo] --delete [remote_branch]```
+    ```git push [remote_repo] -d [remote_branch]```
 
 - View
   - local  
